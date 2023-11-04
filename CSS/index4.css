@@ -81,9 +81,22 @@ body {
     display: block;
 }
 
+.wrapper .sidebar {
+    overflow-y: scroll;
+}
+
+.wrapper .sidebar::-webkit-scrollbar {
+    display: none;
+}
+
 #channel-container {
     width: 85%;
     float: right;
+    overflow-y: scroll;
+}
+
+#channel-container::-webkit-scrollbar {
+    display: none;
 }
 
 #channel-title-container {
@@ -119,8 +132,8 @@ body {
 }
 
 .home-image {
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 50%;
     border-radius: 10px;
     transition: all 0.75s ease;
 }
@@ -212,9 +225,22 @@ body {
         display: block;
     }
 
+    .wrapper .sidebar {
+        overflow-y: scroll;
+    }
+
+    .wrapper .sidebar::-webkit-scrollbar {
+        display: none;
+    }
+
     #channel-container {
         width: 85%;
         float: right;
+        overflow-y: scroll;
+    }
+
+    #channel-container::-webkit-scrollbar {
+        display: none;
     }
 
     #channel-title {
