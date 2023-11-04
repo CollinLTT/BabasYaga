@@ -21,10 +21,11 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 225px;
+    width: 15%;
     height: 100%;
     padding: 20px 0;
     transition: all 0.5s ease;
+    float: left;
 }
 
 .wrapper .sidebar .profile {
@@ -90,22 +91,33 @@ body {
     color: #ffffff;
     text-align: left;
     position: static;
-    padding-left: 280px;
+    padding-left: 50px;
     padding-top: 30px;
     transition: all 0.5s ease;
+    width: 85%;
+    float: right;
 }
 
 #divider {
     color: #ffffff;
     margin-top: 30px;
+    width: 85%;
+    float: right;
 }
 
 #home-container {
-    padding-left: 320px;
+    padding-left: 50px;
     padding-top: 100px;
+    width: 85%;
+    height: 100%;
+    float: right;
 }
 
-#home-image {
+.home-image-container {
+    padding-bottom: 30px;
+}
+
+.home-image {
     height: 500px;
     width: auto;
     border-radius: 10px;
@@ -137,10 +149,11 @@ body {
         position: fixed;
         top: 0;
         left: 0;
-        width: 80px;
+        width: 15%;
         height: 100%;
         padding: 5px 0;
         transition: all 0.5s ease;
+        float: left;
     }
 
     .wrapper .sidebar .profile {
@@ -208,21 +221,32 @@ body {
         color: #ffffff;
         text-align: left;
         position: static;
-        padding-left: 100px;
+        padding-left: 30px;
         padding-top: 20px;
+        width: 85%;
+        float: right;
     }
 
     #divider {
         color: #ffffff;
         margin-top: 20px;
+        width: 85%;
+        float: right;
     }
 
     #home-container {
-        padding-left: 100px;
-        padding-top: 80px;
+        padding-left: 30px;
+        padding-top: 50px;
+        width: 85%;
+        height: 100%;
+        float: right;
     }
 
-    #home-image {
+    .home-image-container {
+        padding-bottom: 30px;
+    }
+
+    .home-image {
         height: 145px;
         width: auto;
         border-radius: 10px;
