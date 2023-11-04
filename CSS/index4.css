@@ -188,6 +188,7 @@ body {
         display: block;
         padding: 5px 5px;
         border-top: 1px solid #1e2124;
+        border-right: 1px solid #1e2124;
         color: rgb(241, 237, 237);
         font-size: 11px;
         position: relative;
@@ -207,7 +208,7 @@ body {
         color: #1e2124;
 
         background: white;
-        border-right: 2px solid rgb(5, 68, 104);
+        border-right: 1px solid #1e2124;
     }
 
     .wrapper .sidebar ul li a:hover .icon,
