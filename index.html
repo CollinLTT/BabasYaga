@@ -2,48 +2,76 @@
 <html>
 
 <head>
-    <title>Babas Yaga - Welcome</title>
+    <title>Babas Yaga - Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" type="text/css" href="CSS/index.css">
     <link rel="icon" href="icons/cauldron.png" type="image/x-icon">
 </head>
 
 <header>
-    <div id="baba-button">
-        <button id="confettiButton">
-            <h1>Baba Yaga</h1>
-        </button>
-        <script src="JS/confetti.js"></script>
-    </div>
-
-
-    <nav>
-        <div id="cauldron">
-            <a href="cauldron.html">
-                <p>The Cauldron</p>
-            </a>
-        </div>
-
-        <!--
-        <div id="contact">
-            <a href="mailto:ctrump001@gmail.com">
-                <p>Contact</p>
-            </a>
-        </div>
-        !-->
-    </nav>
 
 </header>
 
 <body>
     <aside>
-        <div id="home-text">
-            <p>Welcome to your new home.</p>
-        </div>
+        <div class="wrapper">
+            <!--Top menu -->
+            <div class="sidebar">
+                <div class="profile">
+                    <img src="images/baba.png" alt="profile_picture">
+                    <h3>Baba Yaga</h3>
+                    <p>Mother</p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" class="active">
+                            <span class="icon"><i class="fas fa-home"></i></span>
+                            <span class="item">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cauldron.html">
+                            <span class="icon"><i class="fas fa-magic"></i></span>
+                            <span class="item">The Cauldron</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cavern.html">
+                            <span class="icon"><i class="fas fa-gift"></i></span>
+                            <span class="item">Vesta's Cavern</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cliffs.html">
+                            <span class="icon"><i class="fas fa-map"></i></span>
+                            <span class="item">Shadow Cliffs</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="admin.html">
+                            <span class="icon"><i class="fas fa-user-shield"></i></span>
+                            <span class="item">Domus Mactibilis</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="settings.html">
+                            <span class="icon"><i class="fas fa-cog"></i></span>
+                            <span class="item">Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
     </aside>
 
+    <div id="channel-title">
+        <h1>#the-slime-room</h1>
+    </div>
+
+    <hr id="divider">
+
     <main>
-        <img src="images/baba.png" alt="baba yaga">
+        <img id="home-image" src="images/beans.jpg" alt="baba beans yaga" draggable="false">
     </main>
 </body>
 
