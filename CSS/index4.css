@@ -243,8 +243,8 @@ body {
     }
 
     .home-image {
-        height: 180px;
-        width: auto;
+        height: auto;
+        width: 50%;
         border-radius: 10px;
     }
 }
