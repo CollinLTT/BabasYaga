@@ -167,7 +167,6 @@ body {
     .wrapper .sidebar ul li a {
         display: block;
         padding: 7px 20px;
-        border-bottom: 1px solid #1e2124;
         border-top: 1px solid #1e2124;
         color: rgb(241, 237, 237);
         font-size: 11px;
