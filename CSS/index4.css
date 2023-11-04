@@ -183,12 +183,12 @@ body {
 
     .wrapper .sidebar ul li a {
         display: block;
-        padding: 7px 20px;
+        padding: 5px 10px;
         border-top: 1px solid #1e2124;
         color: rgb(241, 237, 237);
         font-size: 11px;
         position: relative;
-        text-align: left;
+        text-align: center;
     }
 
     .wrapper .sidebar ul li a .icon {
