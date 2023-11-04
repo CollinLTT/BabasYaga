@@ -183,7 +183,7 @@ body {
 
     .wrapper .sidebar ul li a {
         display: block;
-        padding: 5px 0px;
+        padding: 5px 5px;
         border-top: 1px solid #1e2124;
         color: rgb(241, 237, 237);
         font-size: 11px;
