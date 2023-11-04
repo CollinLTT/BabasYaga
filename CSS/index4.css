@@ -92,11 +92,6 @@ body {
 #channel-container {
     width: 85%;
     float: right;
-    overflow-y: scroll;
-}
-
-#channel-container::-webkit-scrollbar {
-    display: none;
 }
 
 #channel-title-container {
@@ -236,11 +231,6 @@ body {
     #channel-container {
         width: 85%;
         float: right;
-        overflow-y: scroll;
-    }
-
-    #channel-container::-webkit-scrollbar {
-        display: none;
     }
 
     #channel-title {
