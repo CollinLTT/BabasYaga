@@ -220,14 +220,6 @@ body {
         display: block;
     }
 
-    .wrapper .sidebar {
-        overflow-y: scroll;
-    }
-
-    .wrapper .sidebar::-webkit-scrollbar {
-        display: none;
-    }
-
     #channel-container {
         width: 85%;
         float: right;
